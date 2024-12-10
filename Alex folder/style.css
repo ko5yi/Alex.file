@@ -1,0 +1,129 @@
+<style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #121212;
+            color: #f1f1f1;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1c1c1c;
+            padding: 1.5rem;
+            text-align: center;
+            border-bottom: 2px solid #444;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+        }
+
+        nav a {
+            color: #f1f1f1;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border: 2px solid #f1f1f1;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #f1f1f1;
+            color: #121212;
+        }
+
+        .carousel {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .carousel img {
+            max-width: 100%;
+            height: auto;
+            width: 300px;
+            height: 500px;
+            object-fit:cover ;
+            border-radius: 100px;
+            object-position: center 45% ;
+            
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #f1f1f1;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        p, .description {
+            color: #cccccc;
+        }
+
+        .description {
+            margin-top: 1rem;
+            font-style: italic;
+        }
+
+        .about, .services, .gallery, .contact {
+            text-align: center;
+        }
+
+        .services img {
+            width: 30%;
+            margin: 1%;
+            border-radius: 8px;
+        }
+
+        .gallery img {
+            width: 30%;
+            margin: 1%;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #1c1c1c;
+            border-top: 2px solid #444;
+        }
+
+        form input, form textarea, form select {
+            width: 100%;
+            padding: 0.75rem;
+            margin: 0.5rem 0;
+            background: #1c1c1c;
+            border: 1px solid #444;
+            border-radius: 5px;
+            color: #f1f1f1;
+            font-size: 1rem;
+        }
+
+        form button {
+            padding: 0.75rem 1.5rem;
+            background: #f1f1f1;
+            border: none;
+            color: #121212;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+
+        form button:hover {
+            background: #444;
+            color: #f1f1f1;
+        }
+    </style>
